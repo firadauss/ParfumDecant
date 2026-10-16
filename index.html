@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DecantKans Parfume | Parfum Original Mulai Rp 14.000</title>
+<meta name="description" content="Decant parfum Mykonos & Velixir 100% original tanpa campuran. Coba 1 ml dulu, mulai Rp 14.000. Beli 5 ml gratis 1 ml, beli 10 ml gratis 2 ml parfum random.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,800&family=Figtree:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="nav">
+  <a class="logo" href="#top">DecantKans<span>Parfume</span></a>
+  <nav>
+    <a href="#koleksi">Koleksi</a>
+    <a href="#kepo">Wangi Misterius</a>
+    <a href="#kuis">Cari Wangimu</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+  <a class="btn btn-sm" data-link="tiktokShop" href="https://vt.tiktok.com/ZSbrr4x3W/?page=Mall" target="_blank" rel="noopener">Belanja di TikTok</a>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <p class="chip">100% original tanpa campuran</p>
+    <h1>Wangi mahal.<br>Tanpa beli sebotol penuh.</h1>
+    <p class="lead">Kenapa harus bayar jutaan untuk parfum yang belum tentu cocok di kulitmu? Coba dulu <strong>1 ml</strong> mulai <strong data-mulai>Rp 14.000</strong>. Suka, lanjut ukuran besar. Tidak cocok, kamu tidak rugi.</p>
+    <div class="cta-row">
+      <a class="btn" href="#koleksi">Pilih wangimu</a>
+      <a class="btn btn-ghost" href="#kuis">Bingung? Ikut kuis 20 detik</a>
+    </div>
+    <ul class="proof">
+      <li><b data-jumlah>9</b> wangi Mykonos & Velixir</li>
+      <li><b>1-10 ml</b> ukuran pas coba</li>
+      <li><b>Gratis</b> tambahan 1-2 ml</li>
+    </ul>
+  </div>
+  <div class="hero-vials" id="hero-vials" aria-hidden="true"></div>
+</section>
+
+<section class="strip">
+  <p>Pernah beli parfum karena review bagus, lalu <em>ternyata tidak cocok</em> di kulitmu? Itu alasan decant ada.</p>
+</section>
+
+<section id="koleksi" class="wrap">
+  <h2>Koleksi decant</h2>
+  <p class="sub">Pilih ukuran, lihat harganya berubah langsung. Semua pembelian dilanjutkan di TikTok Shop kami.</p>
+  <div class="filters" id="filters" role="tablist"></div>
+  <div class="grid" id="grid">
+    <noscript><p>Aktifkan JavaScript untuk melihat koleksi dan harga.</p></noscript>
+  </div>
+</section>
+
+<section id="kepo" class="mystery">
+  <div class="wrap mystery-in">
+    <div>
+      <h2>Ada 1-2 ml wangi yang tidak kami beri tahu.</h2>
+      <p>Beli <b>5 ml, gratis 1 ml</b>. Beli <b>10 ml, gratis 2 ml</b>. Gratisannya adalah <b>parfum random</b> dari koleksi kami. Kamu baru tahu wanginya setelah paket dibuka.</p>
+      <p class="small">Jadi, jangan-jangan wangi favoritmu berikutnya justru datang dari gratisan.</p>
+    </div>
+    <button id="reveal" class="gift" type="button" aria-live="polite">
+      <span class="q">?</span>
+      <span class="t">Ketuk untuk intip petunjuk</span>
+    </button>
+  </div>
+</section>
+
+<section class="wrap why">
+  <h2>Kenapa orang pilih decant?</h2>
+  <div class="why-grid">
+    <div><h3>Coba sebelum jatuh cinta</h3><p>Wangi berubah di tiap kulit. Uji 1 ml selama seminggu, baru putuskan.</p></div>
+    <div><h3>Original, tanpa campuran</h3><p>Diisi dari botol asli. Tidak dioplos, tidak diencerkan.</p></div>
+    <div><h3>Koleksi banyak, dompet aman</h3><p>Dengan uang satu botol, kamu bisa punya beberapa wangi berbeda.</p></div>
+    <div><h3>Praktis dibawa</h3><p>Muat di saku dan tas kecil. Semprot ulang kapan saja.</p></div>
+  </div>
+</section>
+
+<section id="kuis" class="wrap quiz">
+  <h2>Wangi apa yang cocok untukmu?</h2>
+  <p class="sub">Dua pertanyaan, satu rekomendasi. Hasilnya kadang bikin kaget.</p>
+  <div id="quiz">
+    <div class="q-block" data-q="vibe"><h3>Kamu mau dikenal sebagai orang yang…</h3>
+      <button data-v="fresh">Segar dan ringan</button><button data-v="bold">Berani dan tegas</button><button data-v="elegant">Elegan dan mewah</button></div>
+    <div class="q-block" data-q="moment"><h3>Parfum ini paling sering dipakai untuk…</h3>
+      <button data-v="day">Aktivitas siang</button><button data-v="night">Nongkrong malam</button><button data-v="date">Kencan</button></div>
+    <div id="result" hidden></div>
+  </div>
+  <p class="small">Rekomendasi ini berdasarkan kesan tiap wangi, bukan kandungan resmi. Tanyakan kami kalau mau tahu lebih detail.</p>
+</section>
+
+<section class="wrap faq">
+  <h2>Pertanyaan yang sering ditanyakan</h2>
+  <details><summary>Apakah parfumnya benar-benar asli?</summary><p>Ya. Decant diambil dari botol asli, tanpa campuran.</p></details>
+  <details><summary>Apa bedanya botol biasa dan botol VIP 10 ml?</summary><p>Botol VIP adalah botol kaca kotak 10 ml yang lebih rapi, cocok untuk hadiah atau koleksi.</p></details>
+  <details><summary>Bagaimana cara ordernya?</summary><p>Pilih wangi dan ukuran, tekan tombol beli, lalu selesaikan pesanan di TikTok Shop kami.</p></details>
+  <details><summary>Bisa tanya-tanya dulu?</summary><p>Tentu. Klik tombol WhatsApp di kartu produk atau di bagian kontak.</p></details>
+</section>
+
+<section id="kontak" class="contact">
+  <div class="wrap contact-in">
+    <div>
+      <h2>Sudah kepo? Sekarang tinggal pilih.</h2>
+      <p>Coba 1 ml dulu. Kalau cocok, kamu tahu harus ke mana lagi.</p>
+      <a class="btn" data-link="tiktokShop" href="https://vt.tiktok.com/ZSbrr4x3W/?page=Mall" target="_blank" rel="noopener">Lihat toko DecantKansParfume</a>
+    </div>
+    <ul class="info">
+      <li><b>WhatsApp</b><a data-link="wa" href="https://wa.me/6287871023730" target="_blank" rel="noopener">0878-7102-3730</a></li>
+      <li><b>Email</b><a data-link="email" href="mailto:decantkans@gmail.com">decantkans@gmail.com</a></li>
+      <li><b>Alamat</b><span data-alamat>JL Sirtu Nomor 214, Semanan, Kalideres, Jakarta Barat</span></li>
+      <li><b>TikTok</b><a data-link="tiktokProfil" href="https://www.tiktok.com/@decantkans" target="_blank" rel="noopener">@decantkans</a></li>
+    </ul>
+  </div>
+</section>
+</main>
+
+<footer><p>&copy; <span data-tahun>2026</span> DecantKans Parfume. Semua merek dan nama produk milik pemilik masing-masing.</p></footer>
+
+<a class="float-wa" data-link="wa" href="https://wa.me/6287871023730" target="_blank" rel="noopener">Chat WhatsApp</a>
+
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
